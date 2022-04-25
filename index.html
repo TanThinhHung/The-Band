@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+</head>
+
+<body>
+    <!-- phân tích dự án trang one page
+    1.header
+      + navigation
+    2.slider
+    3.content
+     +.About
+     +.Tour
+     +.Contact
+     +.Image
+    4.Footer -->
+
+    <!-- Header -->
+    <div id="warpper">
+        <div id="header">
+            <ul id="nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#theband">Band</a>
+                </li>
+                <li>
+                    <a href="#thetour">Tour</a>
+                </li>
+                <li>
+                    <a href="#thecontact">Contact</a>
+                </li>
+                <li>
+                    <a href="#">More</a>
+                    <ul class="subnav">
+                        <li><a href="#">Media</a></li>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Information</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="search">
+                <input type="text" class="searchtext">
+                <button class="buttonSearch"><i class="fa-solid fa-magnifying-glass"></i> </button>
+
+            </div>
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="banner">
+            <div id="slider">
+                <img src="./assets/img/banner.jpg" alt="banner" id="slideShow">
+            </div>
+            <div class="text-banner">
+                <h3>Việt Nam</h3>
+                <p>Đất nước vì hòa bình</p>
+            </div>
+        </div>
+        <div id="content">
+            <div class="band content-section" id="theband">
+                <h2 class="section-heading">The Band</h2>
+                <p class="section-title">We love music</p>
+                <p class="description">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                    id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <div class="row band-member">
+                    <div class="col col-3 text-center member member-mobile">
+                        <p>Name</p>
+                        <img src="./assets/img/band-member.jpg" alt="">
+                    </div>
+                    <div class="col col-3 text-center member member-mobile">
+                        <p>Name</p>
+                        <img src="./assets/img/band-member.jpg" alt="">
+                    </div>
+                    <div class="col col-3 text-center member member-mobile">
+                        <p>Name</p>
+                        <img src="./assets/img/band-member.jpg" alt="">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+            <div class="tour" id="thetour">
+
+                <div class="content-section">
+                    <h2 class="section-heading">Tour Dates</h2>
+                    <p class="section-title">Remember to book your tickets!</p>
+
+                    <ul class="ticket-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>Octorber <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+
+                    <div class="row placeTour">
+                        <div class="col col-3 tourItem s-col-full mt-16">
+                            <img src="./assets/img/tour/TPHCM.jpg" alt="" class="placeImg">
+                            <div class="tourInfor">
+                                <h2>Ho Chi Minh City</h2>
+                                <p class="tourDate">Fri 27 Nov 2016</p>
+                                <p class="tourDesc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn buyTicket s-full-width js-buy-ticket"><span>Buy Tickets</span></button>
+                            </div>
+
+                        </div>
+                        <div class="col col-3 tourItem s-col-full mt-16">
+                            <img src="./assets/img/tour/1720_10.jpg" alt="" class="placeImg">
+                            <div class="tourInfor">
+                                <h2>Ha Noi</h2>
+                                <p class="tourDate">Fri 27 Nov 2016</p>
+                                <p class="tourDesc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn buyTicket s-full-width js-buy-ticket"><span>Buy Tickets</span></button>
+                            </div>
+
+                        </div>
+                        <div class="col col-3 tourItem s-col-full mt-16">
+                            <img src="./assets/img/tour/newyork.jpg" alt="" class="placeImg">
+                            <div class="tourInfor">
+                                <h2>New York</h2>
+                                <p class="tourDate">Fri 27 Nov 2016</p>
+                                <p class="tourDesc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn buyTicket s-full-width js-buy-ticket"><span>Buy Tickets</span></button>
+                            </div>
+
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- begin contact -->
+            <div class="contact" id="thecontact">
+                <div class="content-section">
+                    <h2 class="section-heading">Contact</h2>
+                    <p class="section-title">Fan? Drop a note!</p>
+                    <div class="row contact-content">
+                        <div class="col col-6 s-col-full contact-info">
+                            <p><i class="fa-solid fa-location-dot"></i>HaNoi, VietNam</p>
+                            <p><i class="fa-solid fa-phone"></i>Phone: +84036868686</p>
+                            <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+                        </div>
+                        <div class="col col-6 s-col-full contact-form ">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col col-6 s-col-full">
+                                        <input type="text" class="form-control" placeholder="Name" required>
+                                    </div>
+                                    <div class="col col-6 s-col-full s-mt-8">
+                                        <input type="text" class="form-control" placeholder="Email" required>
+                                    </div>
+
+                                </div>
+                                <div class="row mt-8">
+                                    <div class="col col-12">
+                                        <input type="text" class="form-control" placeholder="Message" required>
+                                    </div>
+                                </div>
+                                <div class="buttonSend mt-16 s-full-width">
+                                    <input type="submit" value="SEND" class="btn s-full-width">
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end contact -->
+
+            <!-- begin map -->
+            <div class="map">
+                <img src="./assets/img/map/map.jpg" alt="map">
+            </div>
+        </div>
+        <div id="footer">
+            <div class="social">
+                <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <div class="powered">
+                <p>Powered by:<a href="#">TuanThinhHung.com</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal js-modal">
+        <div class="model"></div>
+        <div class="modal-Ticket js-modal-ticket">
+            <div class="btnClose js-close-modal">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="modal-header">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>Tickets</span>
+            </div>
+            <div class="modal-body">
+                <label for="quantity" class="modal-label">
+                    <i class="fa-solid fa-cart-plus"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" class="modal-input" id="quantity" placeholder="How many ?">
+                <label for="email" class="modal-label">
+                    <i class="fa-solid fa-user"></i>
+                    Send to
+                </label>
+                <input type="email" class="modal-input" id="email" placeholder="Enter email ....">
+                <div class="modal-pay">
+                    <button class="pay">Pay  <i class="fa-solid fa-check"></i></button>
+
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="closePay js-close-modal">Close  <i class="fa-solid fa-xmark"></i></button>
+                <p class="modal-help">
+                    Need
+                    <a href="">help?</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        var header = document.getElementById('header');
+        console.log(header);
+        var mobileMenu = document.getElementById('mobile-menu');
+        console.log(mobileMenu);
+        var headerHieght = header.clientHeight;
+        mobileMenu.onclick = function() {
+                var isClose = header.clientHeight === headerHieght;
+                if (isClose) {
+                    console.log(header.clientHeight);
+                    header.style.height = 'auto';
+                } else {
+                    console.log(header.clientHeight);
+                    header.style.height = null;
+                }
+            }
+            //tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"');
+        console.log(menuItems);
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i]
+                // console.log(menuItem);
+            menuItem.onclick = function(event) {
+                //sử lý xự kiện more
+                //tìm kiếm đén thẻ có anh chị em liền kề, và có class subnav.
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+
+                console.log(isParentMenu);
+                if (!isParentMenu) {
+                    header.style.height = null;
+                } else {
+                    //bỏ qua giá trị mặc định của thẻ a href
+                    event.preventDefault();
+                }
+                // console.log(this);
+
+            }
+
+        }
+        //
+    </script>
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket');
+        const modal = document.querySelector('.js-modal');
+        const modalTicket = document.querySelector('.js-modal-ticket');
+        // console.log(buyBtns);
+
+        for (var buyBtn of buyBtns) {
+            // console.log(buyBtn);
+            //show modal
+            buyBtn.addEventListener('click', function() {
+
+                modal.classList.add('showmodal');
+            })
+        }
+        const closeModals = document.querySelectorAll('.js-close-modal');
+        console.log(closeModals);
+        for (var closeModal of closeModals) {
+            closeModal.addEventListener('click', function() {
+
+                modal.classList.remove('showmodal');
+            })
+        }
+
+        modal.addEventListener('click', function() {
+            modal.classList.remove('showmodal');
+        })
+        modalTicket.addEventListener('click', function(event) {
+            event.stopPropagation();
+        })
+    </script>
+    <!-- autoslide -->
+    <script>
+        const imgTag = document.getElementById('slideShow');
+        console.log(imgTag);
+        var img = ["./assets/img/banner.jpg", "./assets/img/banner2.jpg", "./assets/img/banner3.jpg"];
+        var i = 0;
+
+        function slideShowAuto() {
+            imgTag.setAttribute("src", img[i]);
+            i++;
+
+            if (i == img.length) i = 0;
+        }
+        setInterval(slideShowAuto, 3000);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+/*PC*/
+
+@media (min-width:1024px) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+
+/*Tablet && Mobile*/
+
+@media (max-width:1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    .social {
+        font-size: 48px;
+    }
+    #footer .social a {
+        margin: 0 8px;
+    }
+    .powered {
+        font-size: 25px;
+    }
+}
+
+
+/*Tablet*/
+
+@media (min-width:740px) and (max-width:1023px) {
+    #mobile-menu {
+        display: none;
+    }
+    .searchtext {
+        display: none;
+    }
+    .buttonSearch {
+        background-color: #000;
+        cursor: pointer;
+        border: none;
+    }
+    .search i {
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+
+/*Mobile*/
+
+@media (max-width:740px) {
+    .s-full-width {
+        width: 100%!important;
+    }
+    .s-col-full {
+        width: 100%!important;
+    }
+    .contact-form {
+        margin-top: 16px!important;
+    }
+    .s-mt-8 {
+        margin-top: 8px!important;
+    }
+    .search {
+        display: none;
+    }
+    #header {
+        display: block;
+        overflow: hidden;
+    }
+    #header #nav {
+        display: block;
+        float: left;
+    }
+    #header .mobile-menu-btn {
+        float: right;
+    }
+    #header .mobile-menu-btn {
+        background-color: #000;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+    #header .mobile-menu-btn i {
+        color: #fff;
+        font-size: 20px;
+        padding: 0 21px;
+        line-height: 46px;
+    }
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+        /* top: 100%;
+        left: 0;
+        box-shadow: 0px 4px 4px 4px rgba( 0, 0, 0, 0.2);
+        display: none;
+        min-width: 160px; */
+    }
+    #nav .subnav a {
+        color: #fff!important;
+        padding: 5px 42px;
+    }
+    .band-member .member-mobile {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
